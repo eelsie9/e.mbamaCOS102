@@ -1,0 +1,7 @@
+Algorithm to Swap Ages of Two People
+Step 1: Start
+Step 2: Prompt the user to enter the first person's name and age
+Step 3: Prompt the user to enter the second person's name and age
+Step 4: Swap the ages of the two individuals
+Step 5: Display the names with their new swapped ages
+Step 6: End

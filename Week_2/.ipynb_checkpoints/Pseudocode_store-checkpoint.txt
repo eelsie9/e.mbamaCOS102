@@ -1,0 +1,20 @@
+Pseudocode for Store Checkout after Purchase
+
+START
+PRINT "Total amount due: N", total_price
+PRINT "Enter payment amount:"
+INPUT payment
+IF payment >= total_price THEN
+    change <- payment - total_price
+    PRINT "Payment successful! Change: N", change
+ELSE
+    PRINT "Insufficient funds! Please enter a valid amount."
+PRINT "Enter additional payment:"
+    INPUT additional_payment
+    payment ← payment + additional_payment
+    UNTIL payment_amount >= total_price
+    change ← payment - total_price
+    PRINT "Payment successful! Change: N", change
+PRINT receipt
+PRINT "Thank you for shopping with us!"
+END
